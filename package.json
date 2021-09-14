@@ -4,12 +4,15 @@
   "description": "",
   "scripts": {
     "test": "mocha",
-    "start": "open index.html"
+    "start": "node ./js/server.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.1.1",
     "mocha": "^6.1.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
