@@ -1,12 +1,12 @@
 {
   "name": "rock-paper-scissors-99",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Project Overview",
   "scripts": {
     "test": "mocha",
     "start": "node ./js/server.js"
   },
-  "author": "",
+  "author": "Jesse Slomowitz",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.1.1",
@@ -14,5 +14,17 @@
   },
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesseagleboy/Rock_Paper_Scissors_99.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jesseagleboy/Rock_Paper_Scissors_99/issues"
+  },
+  "homepage": "https://github.com/jesseagleboy/Rock_Paper_Scissors_99#readme"
 }
