@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "open index.html"
   },
   "author": "",
   "license": "ISC",
